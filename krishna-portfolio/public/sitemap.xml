@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace YOUR-DOMAIN with the production domain before launch. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR-DOMAIN/</loc></url>
+  <url><loc>https://YOUR-DOMAIN/learn</loc></url>
+  <url><loc>https://YOUR-DOMAIN/learn/networking</loc></url>
+  <url><loc>https://YOUR-DOMAIN/learn/owasp</loc></url>
+  <url><loc>https://YOUR-DOMAIN/labs</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog</loc></url>
+  <url><loc>https://YOUR-DOMAIN/projects/web-application-security-assessment</loc></url>
+  <url><loc>https://YOUR-DOMAIN/projects/application-security-and-sast</loc></url>
+  <url><loc>https://YOUR-DOMAIN/projects/dotnet-application-security-review</loc></url>
+  <url><loc>https://YOUR-DOMAIN/projects/rest-api-security-assessment</loc></url>
+  <url><loc>https://YOUR-DOMAIN/projects/llm-security-and-prompt-injection-research</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/why-vapt-is-an-art-not-a-scan</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/idor-when-changing-one-id-exposes-another-users-data</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/apis-are-the-new-front-door</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/why-sast-false-positives-are-worth-triaging</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/when-ai-lies-leaks-and-gets-tricked</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/ai-attacking-ai-emerging-risks</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/privacy-is-not-a-setting-its-a-right</loc></url>
+  <url><loc>https://YOUR-DOMAIN/blog/ai-powered-attacks-what-changes-and-what-does-not</loc></url>
+</urlset>

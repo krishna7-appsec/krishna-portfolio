@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens (mirrored in tailwind.config.ts). */
+:root {
+  --c-ink: #080b10;
+  --c-surface: #10151d;
+  --c-accent: #00f5a0;
+  --c-azure: #00b8ff;
+  --c-fg: #f5f7fa;
+  --c-muted: #929caa;
+  color-scheme: dark;
+}
+
+@layer base {
+  html { background: var(--c-ink); scroll-behavior: smooth; scroll-padding-top: 5rem; }
+  body { @apply bg-ink font-sans text-fg antialiased; }
+  :focus-visible { outline: 2px solid var(--c-azure); outline-offset: 3px; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  }
+}
+
+@layer components {
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse at 50% 0%, #000 30%, transparent 75%);
+  }
+}
